@@ -1,0 +1,28 @@
+body {
+    background: #363636;
+}
+
+.loader {
+    padding-top: 15%;
+    padding-left: 35%;
+}
+
+svg {
+    max-width: 25em;
+    border-radius: 3px;
+    fill: none;
+    stroke: #222;
+    stroke-linecap: round;
+    stroke-width: 8%
+}
+
+use {
+    stroke: #55c66d;
+    animation: a 2s linear infinite
+}
+
+@keyframes a {
+    to {
+        stroke-dashoffset: 0px
+    }
+}
